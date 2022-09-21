@@ -148,6 +148,10 @@ const HomePage = () => {
               <h2 className='mb-1'>
                 3. Get to know what other people think about you!
               </h2>
+              <a href='instagram-stories://share'>
+                SHARE THIS 
+              </a>
+              
               <Button type='submit'>Save & Copy link to other</Button>
               <div>
                 {errors.firstDropThink? <span className='text-red-500'>*{errors.firstDropThink}</span> : null}
